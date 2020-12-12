@@ -1789,21 +1789,8 @@ input, select, textarea {
 			width: 130px;
 			height: 130px;
 			background: #f00;
+   margin: 0 0 0 225px;
 		}
-
-		 @media screen and (min-width: 961px) and (max-width: 1880px) {
-
-			 .image.avatar48 {
-     margin: 0 0 0 225px;
-			 }
-		 }
-
-		 @media screen and (max-width: 960px) {
-
-			 .image.avatar48 {
-     margin: 0 0 0 225px;
-			 }
-   }
 
 			.image.avatar48 img {
 				width: 130px;
@@ -2114,7 +2101,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 425px;
+		width: 400px;
 	}
 
 		#header .top {
@@ -2129,7 +2116,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			padding: 0.75em 0 0.75em 0;
+			padding: 1.5em 0 0.75em 0;
 		}
 
 			#header .bottom > :last-child {
@@ -2684,17 +2671,17 @@ input, select, textarea {
 					}
 
 			body.header-visible #main {
-				-moz-transform: translateX(400px);
-				-webkit-transform: translateX(400px);
-				-ms-transform: translateX(400px);
-				transform: translateX(400px);
+				-moz-transform: translateX(275px);
+				-webkit-transform: translateX(275px);
+				-ms-transform: translateX(275px);
+				transform: translateX(275px);
 			}
 
 			body.header-visible #headerToggle {
-				-moz-transform: translateX(400px);
-				-webkit-transform: translateX(400px);
-				-ms-transform: translateX(400px);
-				transform: translateX(400px);
+				-moz-transform: translateX(275px);
+				-webkit-transform: translateX(275px);
+				-ms-transform: translateX(275px);
+				transform: translateX(275px);
 			}
 
 			body.header-visible #header {
