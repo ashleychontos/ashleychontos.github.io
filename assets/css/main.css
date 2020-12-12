@@ -2684,17 +2684,17 @@ input, select, textarea {
 					}
 
 			body.header-visible #main {
-				-moz-transform: translateX(275px);
-				-webkit-transform: translateX(275px);
-				-ms-transform: translateX(275px);
-				transform: translateX(275px);
+				-moz-transform: translateX(350px);
+				-webkit-transform: translateX(350px);
+				-ms-transform: translateX(350px);
+				transform: translateX(350px);
 			}
 
 			body.header-visible #headerToggle {
-				-moz-transform: translateX(275px);
-				-webkit-transform: translateX(275px);
-				-ms-transform: translateX(275px);
-				transform: translateX(275px);
+				-moz-transform: translateX(350px);
+				-webkit-transform: translateX(350px);
+				-ms-transform: translateX(350px);
+				transform: translateX(350px);
 			}
 
 			body.header-visible #header {
