@@ -1801,7 +1801,7 @@ input, select, textarea {
 		 @media screen and (max-width: 960px) {
 
 			 .image.avatar48 {
-     margin: 0 0 0 250px;
+     margin: 0 0 0 200px;
 			 }
    }
 
@@ -2114,7 +2114,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 600px;
+		width: 425px;
 	}
 
 		#header .top {
