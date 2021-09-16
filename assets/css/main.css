@@ -2413,6 +2413,7 @@ input, select, textarea {
    #main > section.five {
     background-color: #ffffff;
 	 		text-align: left;
+    padding: 80px;
    }
 
    #main > section.six {
