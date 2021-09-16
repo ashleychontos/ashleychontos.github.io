@@ -2410,6 +2410,11 @@ input, select, textarea {
     background-color: #ffffff;
    }
 
+   #main > section.six {
+    background-color: #ffffff;
+	 		text-align: left;
+   }
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
