@@ -2408,6 +2408,7 @@ input, select, textarea {
 
    #main > section.five {
     background-color: #ffffff;
+	 		text-align: left;
    }
 
 /* Wide */
