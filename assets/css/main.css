@@ -2380,6 +2380,10 @@ input, select, textarea {
 			 #main > section.one.alt {
 				 background-image: url("../../images/tessfirstlight.jpg");
      height: 400px;
+
+			 #main > section.one.alttwo {
+				 background-image: url("../../images/tessfirstlight.jpg");
+     height: 100px;
 			 }
 
 			#main > section.two {
