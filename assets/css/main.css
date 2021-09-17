@@ -2412,6 +2412,7 @@ input, select, textarea {
 
    #main > section.six {
     background-color: #ffffff;
+    position:relative;
 	 		text-align: left;
    }
 
