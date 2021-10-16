@@ -1992,6 +1992,13 @@ input, select, textarea {
 		-ms-transition: background-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out;
 	}
+	 input[type="button"],
+	 input[type="submit"],
+	 input[type="reset"],
+	 button,
+  .button.alt{
+   background-color: #6d7877;
+  }
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
