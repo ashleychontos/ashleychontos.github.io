@@ -1992,13 +1992,6 @@ input, select, textarea {
 		-ms-transition: background-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out;
 	}
-	 input[type="button"],
-	 input[type="submit"],
-	 input[type="reset"],
-	 button,
-  .button.alt{
-   background-color: #6d7877;
-  }
 
 		input[type="button"]:hover,
 		input[type="submit"]:hover,
@@ -2015,6 +2008,30 @@ input, select, textarea {
 		.button:active {
 			background-color: #576363;
 		}
+
+	 input[type="button"],
+	 input[type="submit"],
+	 input[type="reset"],
+	 button,
+  .button.alt{
+   background-color: #6d7877;
+  }
+
+	 	input[type="button"]:hover,
+		 input[type="submit"]:hover,
+		 input[type="reset"]:hover,
+		 button:hover,
+		 .button.alt:hover {
+		 	background-color: #b250b5;
+		 }
+
+	 	input[type="button"]:active,
+	 	input[type="submit"]:active,
+	 	input[type="reset"]:active,
+	 	button:active,
+	 	.button.alt:active {
+	 		background-color: #b250b5;
+	 	}
 
 /* Item */
 
