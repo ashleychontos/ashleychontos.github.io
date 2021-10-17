@@ -405,7 +405,7 @@ input, select, textarea {
 		background-color: #b250b5;
 		border: 0;
 		cursor: pointer;
-		background-image: url("../../images/tessfirstlight.jpg");
+		background-image: url("../../images/button.png");
 		-moz-transition: background-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out;
