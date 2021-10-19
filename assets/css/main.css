@@ -803,7 +803,7 @@ ul.icons {
     cursor: pointer;
     display: block;
     font-size: 0.9em;
-    padding: 0.625em 0; }
+    padding: 0.625em 1.5em; }
     #nav ul a:hover, #nav ul span:hover {
       color: #fff; }
     #nav ul a.opener, #nav ul span.opener {
@@ -873,7 +873,7 @@ ul.icons {
     #nav > ul > li > ul {
       color: #9fa3a6;
       display: none;
-      margin: 0.5em 0 1.5em 0;
+      margin: 0.5em 1.5em 1.5em 0;
       padding-left: 1em; }
       #nav > ul > li > ul a, #nav > ul > li > ul span {
         font-size: 0.8em; }
