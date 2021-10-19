@@ -670,14 +670,13 @@ ul.icons {
 		padding-left: 0;	}
 		ul.icons li {
  			display: inline-block;
-	 		padding-left: 0;	}
-		ul.icons a {
-		 	display: inline-block;
-		 	width: 2em;
-		 	height: 2em;
-		 	line-height: 2em;
-		 	text-align: center;
-		 	border: 0;	}
+    padding: 0 1em 0 0; }
+    ul.icons li:last-child {
+      padding-right: 0; }
+    ul.icons li .icon {
+      color: inherit; }
+      ul.icons li .icon:before {
+        font-size: 1.25em; }
 
 
 /*###########################################################################*/
