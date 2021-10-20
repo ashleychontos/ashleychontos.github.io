@@ -740,10 +740,10 @@ ul.icons {
 	 		#main > section.three {
 		  		background-color: #ecf1f1;
       background-image: url("../../images/home/tess.jpg");	}
-    #main > section.three.alt {
-      background-color: #ffffff;
-      padding: 0 0 0 0;
-      height: 55px; }
+      #main > section.three.alt {
+        background-color: #ffffff;
+        padding: 0 0 0 0; 
+        height: 100px; }
  			#main > section.four {
 	  			background-color: #e8edec;	}
       #main > section.four.left {
