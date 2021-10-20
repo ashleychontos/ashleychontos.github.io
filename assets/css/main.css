@@ -685,14 +685,13 @@ ul.icons {
 		 	font-size: 0.75em;
     font-weight:10;
 		 	color: rgba(255, 255, 255, 0.5);
-		 	line-height: 1em;
-		 	margin: 0.5em 0 0 0;	}
+		 	line-height: 1em;	}
   #logo a {
     font-size:0.75em;
     font-weight:10;
     color:#fff;
     line-height: 1em;
-    margin: 0.5em 0 0 0; }
+	  	border-bottom: none; }
 		#logo .image {
 		 	position: absolute;
 		 	left: 0;
