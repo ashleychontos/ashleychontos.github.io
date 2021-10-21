@@ -683,13 +683,13 @@ ul.icons {
 		 	position: relative;
 		 	display: block;
 		 	font-size: 0.6em;
-    line-height: 1.25em;
+    line-height: 0.8em;
     font-weight: 10;
 		 	color: rgba(255, 255, 255, 0.5);	
 	 		margin: 0.5em 0 0 0; }
   #logo a {
     font-size: 0.6em;
-    line-height: 1.25em;
+    line-height: 0.8em;
     font-weight: 10;
     color: #fff;
 	  	border-bottom: none; }
