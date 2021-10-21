@@ -744,6 +744,7 @@ ul.icons {
 			   	 background-image: url("../../images/home/tessfirstlight.jpg");
         height: 400px; }
 	 		#main > section.two {
+      color: #fff;
 		  		background-color: #818584;	}
 	 		#main > section.three {
 		  		background-color: #ecf1f1;
