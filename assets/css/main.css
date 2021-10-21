@@ -684,7 +684,7 @@ ul.icons {
 		 	display: block;
 		 	font-size: 0.75em;
     font-weight: 10;
-    line-height: 1.5em;
+    line-height: 1.25em;
 		 	color: rgba(255, 255, 255, 0.5);	
 	 		margin: 0.5em 0 0 0; }
     #logo p a {
@@ -693,7 +693,7 @@ ul.icons {
   #logo a {
     font-size: 0.75em;
     font-weight: 10;
-    line-height: 1.5em;
+    line-height: 1.25em;
     color: #fff;
 	  	border-bottom: none; }
 		#logo .image {

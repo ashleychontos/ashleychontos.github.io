@@ -1,3 +1,5 @@
 *.DS_store
 images/extra/*
 *.mov
+*_public.html
+*_copy.html
