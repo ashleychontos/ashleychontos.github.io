@@ -583,7 +583,7 @@ form textarea {
 			  	width: auto;	}
 
 a.image:hover {
-		opacity: 0.85;	}
+		opacity: 0.5;	}
 
 
 /*###########################################################################*/
@@ -715,7 +715,7 @@ ul.icons {
 			 background-image: url("images/overlay.png");	}
 		 	#main > section.dark {
       text-align: center;
-				  color: #ddd;
+				  color: #fff;
 				  color: rgba(255, 255, 255, 0.75);	}
 			  	#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					   color: #fff;	}
@@ -731,10 +731,15 @@ ul.icons {
       padding: 80px;
 			  	background-size: cover;
 			  	background-position: center center;	}
-    #main > section.one {
-			   background-color: #81918E; }
-      #main > section.one:before {
-        height: 100%; }
+ 			#main > section.one {
+      color: #fff;
+	  			background-color: #818584;	}
+      #main > section.one.left {
+        position: relative;
+        text-align: left; }
+      #main > section.one.right {
+        position: relative;
+        text-align: right; }
 			 #main > section.one.alt {
 			 	 background-image: url("../../images/home/tessfirstlight.jpg");
       height: 400px; }
@@ -742,7 +747,8 @@ ul.icons {
 		  		background-color: #f5fafa;	}
 	 		#main > section.three {
 		  		background-color: #ecf1f1;
-      background-image: url("../../images/home/tess.jpg");	}
+      background-image: url("../../images/home/tess.jpg");	
+      height: 200px; }
  			#main > section.four {
 	  			background-color: #e8edec;	}
       #main > section.four.left {
