@@ -172,15 +172,29 @@ em, i {
 a {
 		text-decoration: none;
 		color: inherit;
-		border-bottom: dotted 2px rgba(128, 128, 128, 0.5);
-		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
-		transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		border-bottom: dashed 2px rgba(128, 128, 128, 0.5);
+		-moz-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
+		-webkit-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
+		-ms-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
+		transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
 		outline: 0;	}
 		a:hover {
-			 color: #E27689;
+    font-weight: 500;
 			 border-bottom-color: rgba(255, 255, 255, 0);	}
+  a.light {
+    color: #000000; 
+    border-bottom: dashed 2px rgba(0, 0, 0, 1); }
+    a.light:hover {
+      color: #000000;
+      font-weight:500;
+      border-bottom-color: rgba(255, 255, 255, 0); }
+  a.dark {
+    color: #ffffff; 
+    border-bottom: dashed 2px rgba(255, 255, 255, 1); }
+    a.dark:hover {
+      color: #ffffff;
+      font-weight:500;
+      border-bottom-color: rgba(255, 255, 255, 0); }
 
 sub {
 		position: relative;
@@ -611,7 +625,7 @@ a.image:hover {
 /*###########################################################################*/
 
 .item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+		box-shadow: none;
 		margin-bottom: 40px;	}
 		.item header {
 			 background: #fff;
