@@ -664,7 +664,7 @@ ul.icons {
 #logo {
 		text-align: left;
 		position: relative;
-		margin: 1.75em 1.5em 1.5em 1.5em;
+		margin: 1.5em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;	}
 		#logo h1 {
@@ -684,13 +684,11 @@ ul.icons {
 		 	display: block;
 		 	font-size: 0.75em;
     font-weight:10;
-		 	color: rgba(255, 255, 255, 0.5);
-		 	line-height: 1em;	}
+		 	color: rgba(255, 255, 255, 0.5);	}
   #logo a {
     font-size:0.75em;
     font-weight:10;
     color:#fff;
-    line-height: 1em;
 	  	border-bottom: none; }
 		#logo .image {
 		 	position: absolute;
