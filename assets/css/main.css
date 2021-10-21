@@ -682,16 +682,18 @@ ul.icons {
 		#logo p {
 		 	position: relative;
 		 	display: block;
-		 	font-size: 0.6em;
-    line-height: 1.25em;
+		 	font-size: 0.8em;
+    font-weight: 10;
+    line-height: 1.75em;
 		 	color: rgba(255, 255, 255, 0.5);	
 	 		margin: 0.5em 0 0 0; }
     #logo p a {
       color: #fff;
       border-bottom: none; }
   #logo a {
-    font-size: 0.6em;
-    line-height: 1.25em;
+    font-size: 0.8em;
+    font-weight: 10;
+    line-height: 1.75em;
     color: #fff;
 	  	border-bottom: none; }
 		#logo .image {
