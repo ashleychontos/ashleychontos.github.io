@@ -753,7 +753,8 @@ ul.icons {
 		  		  background-color: #ecf1f1;
         background-image: url("../../images/home/tess2.jpg");	
         height: 200px; }
- 			#main > section.four {
+ 			#main > section.four { 
+      color: #000000;
 	  			background-color: #e8edec;	}
       #main > section.four.left {
         position: relative;
