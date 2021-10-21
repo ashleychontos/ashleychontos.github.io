@@ -111,30 +111,46 @@ h1, h2, h3, h4, h5, h6 {
 		  text-decoration: none; }
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 			 color: #333; }
-  h1 {
-    font-size: 3em;
-    letter-spacing: -1px;
-    line-height: 60px;
-    color: white; }
+h1 {
+  font-size: 3em;
+  letter-spacing: -1px;
+  line-height: 60px; }
   h1.alt {
+    color: #ffffff;
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
-  h1.new {
+  h1.white {
+    color: #ffffff; }
+  h1.dark {
     color: #222629; }
- 	h2 {
-	  	font-size: 2em;
-	  	letter-spacing: -1px; }
+  h1.black {
+    color: #000000; }
+h2 {
+	 font-size: 2em;
+ 	letter-spacing: -1px; }
 		h2.alt {
     position: relative;
     color: white;
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;
     font-weight: 500; }
 			 h2.alt strong {
-				color: #666; }
- 	h3 {
-	  	font-size: 2em; }
+				  color: #666; }
+  h2.white {
+    color: #ffffff; }
+  h2.dark {
+    color: #222629; }
+  h2.black {
+    color: #000000; }
+h3 {
+		font-size: 1.5em; }
   h3.alt {
     color: #000000;
     font-weight: 500; }
+  h3.white {
+    color: #ffffff; }
+  h3.dark {
+    color: #222629; }
+  h3.black {
+    color: #000000; }
 
 header {
 		margin: 2em 0 0.5em 0; }
@@ -583,7 +599,7 @@ form textarea {
 			  	width: auto;	}
 
 a.image:hover {
-		opacity: 0.5;	}
+		opacity: 0.6;	}
 
 
 /*###########################################################################*/
@@ -732,7 +748,7 @@ ul.icons {
 			  	background-size: cover;
 			  	background-position: center center;	}
  			#main > section.one {
-      color: #fff;
+      color: #ffffff;
 	  			background-color: #ecf1f1;	}
       #main > section.one.left {
         position: relative;
@@ -744,7 +760,7 @@ ul.icons {
 			   	 background-image: url("../../images/home/tessfirstlight.jpg");
         height: 400px; }
 	 		#main > section.two {
-      color: #fff;
+      color: #ffffff;
 		  		background-color: #818584;	}
 	 		#main > section.three {
 		  		background-color: #ecf1f1;
