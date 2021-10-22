@@ -116,7 +116,7 @@ h1 {
   letter-spacing: -1px;
   line-height: 60px; }
   h1.alt {
-    color: #ffffff;
+    color: inherit;
     font-weight: 500;
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
   h1.white {
@@ -133,7 +133,7 @@ h2 {
  	letter-spacing: -1px; }
 		h2.alt {
     position: relative;
-    color: white;
+    color: inherit;
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;
     font-weight: 500; }
 			 h2.alt strong {
@@ -150,7 +150,7 @@ h2 {
 h3 {
 		font-size: 1.5em; }
   h3.alt {
-    color: #000000;
+    color: inherit;
     font-weight: 300; }
   h3.white {
     color: #ffffff; }
