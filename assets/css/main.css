@@ -120,13 +120,13 @@ h1 {
     font-weight: 500;
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
   h1.white {
-    font-weight: 300;
+    font-weight: 600;
     color: #ffffff; }
   h1.dark {
-    font-weight: 300;
+    font-weight: 600;
     color: #222629; }
   h1.black {
-    font-weight: 300;
+    font-weight: 600;
     color: #000000; }
 h2 {
 	 font-size: 2em;
@@ -139,19 +139,19 @@ h2 {
 			 h2.alt strong {
 				  color: #666; }
   h2.white {
-    font-weight: 300;
+    font-weight: 600;
     color: #ffffff; }
   h2.dark {
-    font-weight: 300;
+    font-weight: 600;
     color: #222629; }
   h2.black {
-    font-weight: 300;
+    font-weight: 600;
     color: #000000; }
 h3 {
 		font-size: 1.5em; }
   h3.alt {
     color: #000000;
-    font-weight: 300; }
+    font-weight: 500; }
   h3.white {
     color: #ffffff; }
   h3.dark {
@@ -175,20 +175,18 @@ strong, b {
 
 em, i {
 		font-style: italic;	}
-  i a:hover {
-    font-weight: 300 ;}
 
 a {
 		text-decoration: none;
 		color: inherit;
-		border-bottom: dotted 2px rgba(128, 128, 128, 0.5);
+		border-bottom: dashed 2px rgba(128, 128, 128, 0.5);
 		-moz-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
 		-webkit-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
 		-ms-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
 		transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
 		outline: 0;	}
 		a:hover {
-    color: #ffffff; 
+    color: inherit; 
 			 border-bottom-color: rgba(255, 255, 255, 0);	}
   a.strong {
     color: inherit; }
@@ -200,12 +198,16 @@ a {
     border-bottom: dotted 2px rgba(0, 0, 0, 1); }
     a.black:hover {
       color: #000000;
+      font-weight: 300;
       border-bottom-color: rgba(255, 255, 255, 0); }
   a.white {
     color: #ffffff; 
     border-bottom: dotted 2px rgba(255, 255, 255, 1); }
     a.white:hover {
       color: #ffffff;
+    a.dark:hover {
+      color: #ffffff;
+      font-weight: 300;
       border-bottom-color: rgba(255, 255, 255, 0); }
 
 sub {
