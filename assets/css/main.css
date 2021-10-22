@@ -798,8 +798,7 @@ ul.icons {
         text-align: right; }
 		 	#main > section.dark {
       text-align: center;
-				  color: #ffffff;
-				  color: rgba(255, 255, 255, 0.75);	}
+      background-color: #818584; }
 			  	#main > section.dark h1, #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					   color: #ffffff;	}
 			  	  #main > section.dark h1.strong, #main > section.dark h2.strong, #main > section.dark h3.strong, #main > section.dark h4.strong, #main > section.dark h5.strong, #main > section.dark h6.strong {
