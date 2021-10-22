@@ -207,10 +207,8 @@ a {
     a.white:hover {
       color: #ffffff;
       border-bottom-color: rgba(255, 255, 255, 0); }
-  a.image {
-    border-bottom: none; }
-    a.image:hover {
-		    opacity: 0.6;	}
+  a.image:hover {
+		  opacity: 0.6;	}
 
 sub {
 		position: relative;
