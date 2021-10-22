@@ -103,8 +103,7 @@ input, textarea, select {
 		color: #888;	}
 
 h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
-		color: #666;
+		color: inherit;
 		line-height: 1.5em;	}
  	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	  	color: inherit;
@@ -112,51 +111,54 @@ h1, h2, h3, h4, h5, h6 {
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 			 color: inherit; 
     font-weight: 300; }
+
 h1 {
   font-size: 3em;
   letter-spacing: -1px;
-  line-height: 60px; }
-  h1.alt {
-    color: #ffffff;
-    text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
-			 h1.alt strong {
-				  color: #ffffff; 
-      font-weight: 500;}
+  line-height: 60px; 
+  position: relative; }
+  h1 strong {
+    font-weight: 500; }
   h1.white {
-    font-weight: 300;
     color: #ffffff; }
+  h1.light {
+    color: #a6aaad; }
   h1.dark {
-    font-weight: 300;
     color: #222629; }
   h1.black {
-    font-weight: 300;
-    color: #000000; }
+    color: #000000; }}
+		h1.alt {
+    color: #ffffff;
+    text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
+
 h2 {
 	 font-size: 2em;
- 	letter-spacing: -1px; }
-		h2.alt {
-    position: relative;
-    color: white;
-    text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
-			 h2.alt strong {
-				  color: #ffffff; 
-      font-weight: 400;}
+ 	letter-spacing: -1px; 
+  position: relative; }
+  h2 strong {
+    font-weight: 400; }
   h2.white {
-    font-weight: 300;
     color: #ffffff; }
+  h2.light {
+    color: #a6aaad; }
   h2.dark {
-    font-weight: 300;
     color: #222629; }
   h2.black {
-    font-weight: 300;
-    color: #000000; }
+    color: #000000; }}
+		h2.alt {
+    color: white;
+    text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
+
 h3 {
-		font-size: 1.5em; }
-  h3.alt {
-    color: #000000;
+		font-size: 1.5em; 
+  letter-spacing: -1px; 
+  position: relative; }
+  h3 strong {
     font-weight: 300; }
   h3.white {
     color: #ffffff; }
+  h3.light {
+    color: #a6aaad; }
   h3.dark {
     color: #222629; }
   h3.black {
@@ -178,7 +180,7 @@ strong, b {
 
 em, i {
 		font-style: italic;	}
-  i a:hover {
+  em a:hover, i a:hover {
     font-weight: 300 ;}
 
 a {
@@ -755,10 +757,6 @@ ul.icons {
 			 box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			 text-align: center;
 			 background-image: url("images/overlay.png");	}
-    #main section h1, #main section h2, #main section h3, #main section h4, #main section h5, #main section h6 {
-      color: inherit; }
-      #main section h1.strong, #main section h2.strong, #main section h3.strong, #main section h4.strong, #main section h5.strong, #main section h6.strong {
-        font-weight: 300; }
     #main section.white {
       text-align: center;
       background-color: #ffffff; }
@@ -781,7 +779,7 @@ ul.icons {
         text-align: right; }
     #main section.light {
       text-align: center;
-      background-color: #ecf1f1; }
+      background-color: #a6aaad; }
 			  	#main section.light h1, #main section.light h2, #main section.light h3, #main section.light h4, #main section.light h5, #main section.light h6 {
 					   color: #000000;	}
       #main section.light p {
@@ -803,7 +801,7 @@ ul.icons {
         text-align: right; }
 		 	#main section.dark {
       text-align: center;
-      background-color: #818584; }
+      background-color: #222629; }
 			  	#main section.dark h1, #main section.dark h2, #main section.dark h3, #main section.dark h4, #main section.dark h5, #main section.dark h6 {
 					   color: #ffffff;	}
       #main section.dark p {
@@ -827,9 +825,9 @@ ul.icons {
       text-align: center;
       background-color: #000000; }
 			  	#main section.black h1, #main section.black h2, #main section.black h3, #main section.black h4, #main section.black h5, #main section.black h6 {
-					   color: #ecf1f1;	}
+					   color: #a6aaad;	}
       #main section.black p {
-        color: #ecf1f1; }
+        color: #a6aaad; }
 		  		#main section.black a {
 				   	color: inherit;
 				   	border-color: inherit;	}
@@ -851,7 +849,7 @@ ul.icons {
 			  	background-position: center center;	}
  			#main > section.one {
       color: #ffffff;
-	  			background-color: #ecf1f1;	}
+	  			background-color: #a6aaad;	}
       #main > section.one.left {
         position: relative;
         text-align: left; }
