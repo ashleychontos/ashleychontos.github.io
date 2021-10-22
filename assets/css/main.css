@@ -118,7 +118,9 @@ h1 {
   h1.alt {
     color: #ffffff;
     font-weight: 300;
-    text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
+    text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; 
+			 h1.alt strong {
+				  color: #ffffff; }
   h1.white {
     font-weight: 300;
     color: #ffffff; }
@@ -137,7 +139,7 @@ h2 {
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;
     font-weight: 300; }
 			 h2.alt strong {
-				  color: #666; }
+				  color: #ffffff; }
   h2.white {
     font-weight: 300;
     color: #ffffff; }
@@ -781,6 +783,8 @@ ul.icons {
 					   color: #000000;	}
 			  	  #main > section.light h1.strong, #main > section.light h2.strong, #main > section.light h3.strong, #main > section.light h4.strong, #main > section.light h5.strong, #main > section.light h6.strong {
 					     font-weight: 300;	}
+      #main > section.light p {
+        color: #000000; }
 		  		#main > section.light a {
 				   	color: #000000;
 				   	border-color: inherit;	}
@@ -803,6 +807,8 @@ ul.icons {
 					   color: #ffffff;	}
 			  	  #main > section.dark h1.strong, #main > section.dark h2.strong, #main > section.dark h3.strong, #main > section.dark h4.strong, #main > section.dark h5.strong, #main > section.dark h6.strong {
 					     font-weight: 300;	}
+      #main > section.dark p {
+        color: #ffffff; }
 		  		#main > section.dark a {
 				   	color: inherit;
 				   	border-color: inherit;	}
@@ -825,6 +831,8 @@ ul.icons {
 					   color: #ecf1f1;	}
 			  	  #main > section.black h1.strong, #main > section.black h2.strong, #main > section.black h3.strong, #main > section.black h4.strong, #main > section.black h5.strong, #main > section.black h6.strong {
 					     font-weight: 300;	}
+      #main > section.black p {
+        color: #ecf1f1; }
 		  		#main > section.black a {
 				   	color: inherit;
 				   	border-color: inherit;	}
