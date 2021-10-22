@@ -754,18 +754,19 @@ ul.icons {
 			 background-image: url("images/overlay.png");	}
 		 	#main > section.dark {
       text-align: center;
-				  color: #fff;
+				  color: #ffffff;
 				  color: rgba(255, 255, 255, 0.75);	}
 			  	#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					   color: #fff;	}
-	  			#main > section.dark strong {
-					   color: #fff;
-					   border-color: inherit;	}
+					   color: #ffffff;	}
 		  		#main > section.dark a {
-				   	color: #fff;
+				   	color: inherit;
 				   	border-color: inherit;	}
 				   	#main > section.dark a:hover {
 						    border-bottom-color: rgba(255, 255, 255, 0);	}
+        #main > section.dark a.strong { }
+          #main > section.dark a.strong:hover {
+            font-weight: 300; 
+						      border-bottom-color: rgba(255, 255, 255, 0);}
 		 	#main > section.cover {
       padding: 80px;
 			  	background-size: cover;
