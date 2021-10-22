@@ -878,12 +878,6 @@ ul.icons {
  			#main > section.one {
       color: #ffffff;
 	  			background-color: #a6aaad;	}
-      #main > section.one.left {
-        position: relative;
-        text-align: left; }
-      #main > section.one.right {
-        position: relative;
-        text-align: right; }
 		  	 #main > section.one.alt {
 			   	 background-image: url("../../images/home/tessfirstlight.jpg");
         height: 400px; }
