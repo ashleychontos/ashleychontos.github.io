@@ -208,7 +208,7 @@ a {
       color: #ffffff;
       border-bottom-color: rgba(255, 255, 255, 0); }
   a.image {
-    border-bottom: dotted 2px rgba(255, 255, 255, 0); }
+    border-bottom: none; }
     a.image:hover {
 		    opacity: 0.6;	}
 
