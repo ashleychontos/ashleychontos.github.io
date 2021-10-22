@@ -117,16 +117,16 @@ h1 {
   line-height: 60px; }
   h1.alt {
     color: #ffffff;
-    font-weight: 500;
+    font-weight: 300;
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
   h1.white {
-    font-weight: 600;
+    font-weight: 300;
     color: #ffffff; }
   h1.dark {
-    font-weight: 600;
+    font-weight: 300;
     color: #222629; }
   h1.black {
-    font-weight: 600;
+    font-weight: 300;
     color: #000000; }
 h2 {
 	 font-size: 2em;
@@ -135,23 +135,23 @@ h2 {
     position: relative;
     color: white;
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;
-    font-weight: 500; }
+    font-weight: 300; }
 			 h2.alt strong {
 				  color: #666; }
   h2.white {
-    font-weight: 600;
+    font-weight: 300;
     color: #ffffff; }
   h2.dark {
-    font-weight: 600;
+    font-weight: 300;
     color: #222629; }
   h2.black {
-    font-weight: 600;
+    font-weight: 300;
     color: #000000; }
 h3 {
 		font-size: 1.5em; }
   h3.alt {
     color: #000000;
-    font-weight: 500; }
+    font-weight: 300; }
   h3.white {
     color: #ffffff; }
   h3.dark {
@@ -175,39 +175,34 @@ strong, b {
 
 em, i {
 		font-style: italic;	}
+  i a:hover {
+    font-weight: 300 ;}
 
 a {
 		text-decoration: none;
 		color: inherit;
-		border-bottom: dashed 2px rgba(128, 128, 128, 0.5);
+		border-bottom: dotted 2px rgba(128, 128, 128, 0.5);
 		-moz-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
 		-webkit-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
 		-ms-transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
 		transition: color 0.15s ease-in-out, border-bottom-color 0.15s ease-in-out;
 		outline: 0;	}
 		a:hover {
-    color: inherit; 
+    font-weight: 300;
 			 border-bottom-color: rgba(255, 255, 255, 0);	}
-  a.strong {
-    color: inherit; }
-    a.strong:hover {
-      font-weight: 300; 
-			   border-bottom-color: rgba(255, 255, 255, 0);	}
-  a.black {
+  a.light {
     color: #000000; 
     border-bottom: dotted 2px rgba(0, 0, 0, 1); }
-    a.black:hover {
+    a.light:hover {
       color: #000000;
-      font-weight: 300;
+      font-weight:300;
       border-bottom-color: rgba(255, 255, 255, 0); }
-  a.white {
+  a.dark {
     color: #ffffff; 
     border-bottom: dotted 2px rgba(255, 255, 255, 1); }
-    a.white:hover {
-      color: #ffffff;
     a.dark:hover {
       color: #ffffff;
-      font-weight: 300;
+      font-weight:300;
       border-bottom-color: rgba(255, 255, 255, 0); }
 
 sub {
@@ -749,84 +744,75 @@ ul.icons {
 /*###########################################################################*/
 
 
+#main { }
 		#main > section {
 		  margin: 0;
 			 overflow: hidden;
-			 padding: 4em 0;
+			 padding: 0 0 1.5em 0;
 			 box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			 text-align: center;
 			 background-image: url("images/overlay.png");	}
-		 	#main > section.cover { }
-      #main > section.cover.alt {
-        padding: 80px;
-			  	  background-size: cover;
-			  	  background-position: center center;	
-        background-image: url("../../images/home/tessfirstlight.jpg");
+		 	#main > section.dark {
+      text-align: center;
+				  color: #fff;
+				  color: rgba(255, 255, 255, 0.75);	}
+			  	#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+					   color: #fff;	}
+	  			#main > section.dark strong {
+					   color: #fff;
+					   border-color: inherit;	}
+		  		#main > section.dark a {
+				   	color: #fff;
+				   	border-color: inherit;	}
+				   	#main > section.dark a:hover {
+						    border-bottom-color: rgba(255, 255, 255, 0);	}
+		 	#main > section.cover {
+      padding: 80px;
+			  	background-size: cover;
+			  	background-position: center center;	}
+ 			#main > section.one {
+      color: #ffffff;
+	  			background-color: #ecf1f1;	}
+      #main > section.one.left {
+        position: relative;
+        text-align: left; }
+      #main > section.one.right {
+        position: relative;
+        text-align: right; }
+		  	 #main > section.one.alt {
+			   	 background-image: url("../../images/home/tessfirstlight.jpg");
         height: 400px; }
-	 		  #main > section.cover.thick {
-        background-image: url("../../images/home/tess.jpg");	 }
-	 		  #main > section.cover.thin {
+	 		#main > section.two {
+		  		background-color: #818584;	}
+      #main > section.two.left {
+        position: relative;
+        text-align: left; }
+      #main > section.two.right {
+        position: relative;
+        text-align: right; }
+	 		#main > section.three {
+		  		background-color: #ecf1f1;
+      background-image: url("../../images/home/tess.jpg");	 }
+	 		  #main > section.three.alt {
+		  		  background-color: #ecf1f1;
         background-image: url("../../images/home/tess2.jpg");	
         height: 200px; }
-		 	#main > section.dark {
-      position: relative;
-		  		background-color: #818584;	
-      text-align: center; }
-			  	#main > section.dark h1, #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					   color: #ffffff;	}
-        #main > section.dark.alt h3 {
-					     color: #818584;	}
-		  		#main > section.dark p {
-				   	color: #ffffff; }
-      #main > section.dark a {
-        color: #ffffff;
-      #main > section.dark.left {
+ 			#main > section.four { 
+      color: #000000;
+	  			background-color: #e8edec;	}
+      #main > section.four.left {
+        position: relative;
         text-align: left; }
-      #main > section.dark.right {
+      #main > section.four.right {
+        position: relative;
         text-align: right; }
- 			#main > section.light {
-      position: relative;
-	  			background-color: #ecf1f1;	
-      text-align: center; }
-			  	#main > section.light h1, #main > section.light h2, #main > section.light h3, #main > section.light h4, #main > section.light h5, #main > section.light h6 {
-					   color: #000000;	}
-		  		#main > section.light p {
-				   	color: #000000; }
-      #main > section.light a {
-        color: #000000;
-      #main > section.light.left {
+    #main > section.five {
+      background-color: #ffffff; }
+      #main > section.five.left {
+        position: relative;
         text-align: left; }
-      #main > section.light.right {
-        text-align: right; }
-    #main > section.white {
-      position: relative;
-      background-color: #ffffff; 
-      text-align: center; }
-			  	#main > section.white h1, #main > section.white h2, #main > section.white h3, #main > section.white h4, #main > section.white h5, #main > section.white h6 {
-					   color: rgba(95, 95, 95, 1);	}
-		  		#main > section.white p {
-				   	color: rgba(95, 95, 95, 1); }
-      #main > section.white a {
-        color: rgba(95, 95, 95, 1); }
-      #main > section.white.left {
-        text-align: left; }
-      #main > section.white.right {
-        text-align: right; }
-    #main > section.black {
-      position: relative;
-      background-color: #000000; 
-      text-align: center; }
-			  	#main > section.black h1, #main > section.black h2, #main > section.black h3, #main > section.black h4, #main > section.black h5, #main > section.black h6 {
-					   color: rgba(225, 225, 225, 1);	}
-        #main > section.black h3 {
-          color: #000000; }
-		  		#main > section.black p {
-				   	color: rgba(225, 225, 225, 1); }
-      #main > section.black a {
-        color: rgba(225, 225, 225, 1); }
-      #main > section.black.left {
-        text-align: left; }
-      #main > section.black.right {
+      #main > section.five.right {
+        position: relative;
         text-align: right; }
 
 
