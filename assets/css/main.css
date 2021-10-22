@@ -752,12 +752,58 @@ ul.icons {
 			 box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 			 text-align: center;
 			 background-image: url("images/overlay.png");	}
+    #main > section.white {
+      text-align: center;
+      background-color: #ffffff; }
+			  	#main > section.white h1, #main > section.white h2, #main > section.white h3, #main > section.white h4, #main > section.white h5, #main > section.white h6 {
+					   color: inherit;	}
+			  	  #main > section.white h1.strong, #main > section.white h2.strong, #main > section.white h3.strong, #main > section.white h4.strong, #main > section.white h5.strong, #main > section.white h6.strong {
+					     font-weight: 300;	}
+		  		#main > section.white a {
+				   	color: inherit;
+				   	border-color: inherit;	}
+				   	#main > section.white a:hover {
+						    border-bottom-color: rgba(255, 255, 255, 0);	}
+        #main > section.white a.strong { }
+          #main > section.white a.strong:hover {
+            font-weight: 300; 
+						      border-bottom-color: rgba(255, 255, 255, 0);}
+      #main > section.white.left {
+        position: relative;
+        text-align: left; }
+      #main > section.white.right {
+        position: relative;
+        text-align: right; }
+    #main > section.light {
+      text-align: center;
+      background-color: #ecf1f1; }
+			  	#main > section.light h1, #main > section.light h2, #main > section.light h3, #main > section.light h4, #main > section.light h5, #main > section.light h6 {
+					   color: #000000;	}
+			  	  #main > section.light h1.strong, #main > section.light h2.strong, #main > section.light h3.strong, #main > section.light h4.strong, #main > section.light h5.strong, #main > section.light h6.strong {
+					     font-weight: 300;	}
+		  		#main > section.light a {
+				   	color: #000000;
+				   	border-color: inherit;	}
+				   	#main > section.light a:hover {
+						    border-bottom-color: rgba(255, 255, 255, 0);	}
+        #main > section.light a.strong { }
+          #main > section.light a.strong:hover {
+            font-weight: 300; 
+						      border-bottom-color: rgba(255, 255, 255, 0);}
+      #main > section.light.left {
+        position: relative;
+        text-align: left; }
+      #main > section.light.right {
+        position: relative;
+        text-align: right; }
 		 	#main > section.dark {
       text-align: center;
 				  color: #ffffff;
 				  color: rgba(255, 255, 255, 0.75);	}
-			  	#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
+			  	#main > section.dark h1, #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
 					   color: #ffffff;	}
+			  	  #main > section.dark h1.strong, #main > section.dark h2.strong, #main > section.dark h3.strong, #main > section.dark h4.strong, #main > section.dark h5.strong, #main > section.dark h6.strong {
+					     font-weight: 300;	}
 		  		#main > section.dark a {
 				   	color: inherit;
 				   	border-color: inherit;	}
@@ -767,6 +813,34 @@ ul.icons {
           #main > section.dark a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
+      #main > section.dark.left {
+        position: relative;
+        text-align: left; }
+      #main > section.dark.right {
+        position: relative;
+        text-align: right; }
+		 	#main > section.black {
+      text-align: center;
+      background-color: #000000; }
+			  	#main > section.black h1, #main > section.black h2, #main > section.black h3, #main > section.black h4, #main > section.black h5, #main > section.black h6 {
+					   color: #ecf1f1;	}
+			  	  #main > section.black h1.strong, #main > section.black h2.strong, #main > section.black h3.strong, #main > section.black h4.strong, #main > section.black h5.strong, #main > section.black h6.strong {
+					     font-weight: 300;	}
+		  		#main > section.black a {
+				   	color: inherit;
+				   	border-color: inherit;	}
+				   	#main > section.black a:hover {
+						    border-bottom-color: rgba(255, 255, 255, 0);	}
+        #main > section.black a.strong { }
+          #main > section.black a.strong:hover {
+            font-weight: 300; 
+						      border-bottom-color: rgba(255, 255, 255, 0);}
+      #main > section.black.left {
+        position: relative;
+        text-align: left; }
+      #main > section.black.right {
+        position: relative;
+        text-align: right; }
 		 	#main > section.cover {
       padding: 80px;
 			  	background-size: cover;
