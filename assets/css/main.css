@@ -808,23 +808,23 @@ ul.icons {
     #main section.medium {
       text-align: center;
       background-color: #a6aaad; }
-			  	#main section.light h1, #main section.light h2, #main section.light h3, #main section.light h4, #main section.light h5, #main section.light h6 {
+			  	#main section.medium h1, #main section.medium h2, #main section.medium h3, #main section.medium h4, #main section.medium h5, #main section.medium h6 {
 					   color: #000000;	}
-      #main section.light p {
+      #main section.medium p {
         color: #000000; }
-		  		#main section.light a {
+		  		#main section.medium a {
 				   	color: #000000;
 				   	border-color: inherit;	}
-				   	#main section.light a:hover {
+				   	#main section.medium a:hover {
 						    border-bottom-color: rgba(255, 255, 255, 0);	}
-        #main section.light a.strong { }
-          #main section.light a.strong:hover {
+        #main section.medium a.strong { }
+          #main section.medium a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
-      #main section.light.left {
+      #main section.medium.left {
         position: relative;
         text-align: left; }
-      #main section.light.right {
+      #main section.medium.right {
         position: relative;
         text-align: right; }
 		 	#main section.dark {
