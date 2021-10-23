@@ -363,7 +363,7 @@ button,
 		text-align: center;
 		background-color: #dce3e2;
   background-image: url("../../images/home/tess2.jpg");
-		position: absolute ;
+		position: fixed ;
   bottom: 0;
   width:100% ;
 		font-size: 1em;	
