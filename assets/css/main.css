@@ -928,14 +928,6 @@ ul.icons {
 
 		 	#main section.cover {
         color: #ffffff;	}
-      #main section.cover h1 {
-        color: #ffffff;
-        font-weight: 500;
-        text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;}
-      #main section.cover h2 {
-        color: #ffffff;
-        font-weight: 400;
-        text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;}
       #main section.cover.top { 
         padding: 80px;
 			    	background-size: cover;
@@ -947,6 +939,14 @@ ul.icons {
 	 		  #main section.cover.thin {
         background-image: url("../../images/home/tess2.jpg");	
         height: 200px; }
+      #main section.cover h1 {
+        color: #ffffff;
+        font-weight: 500;
+        text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;}
+      #main section.cover h2 {
+        color: #ffffff;
+        font-weight: 400;
+        text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;}
 
 
 /*###########################################################################*/
