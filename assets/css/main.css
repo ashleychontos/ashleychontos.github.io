@@ -359,7 +359,7 @@ button,
 
 
 #footer {
-  margin-top: 2em; 
+  margin-top: 30px; 
 		background-color: #dce3e2;
   background-image: url("../../images/home/tess2.jpg");
 		position: fixed ;
@@ -599,8 +599,7 @@ a.image:hover {
 /*###########################################################################*/
 
 .item {
-		box-shadow: none;
-		margin-bottom: 40px;	}
+		box-shadow: none;	}
 		.item header {
 			 background: inherit;
 			 margin: 0;
