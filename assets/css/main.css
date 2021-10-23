@@ -119,56 +119,22 @@ h1 {
   position: relative; }
   h1 strong {
     font-weight: 500; }
-  h1.white {
-    color: #ffffff; }
-  h1.light {
-    color: #d9dcde; }
-  h1.medium {
-    color: #a6aaad; }
-  h1.dark {
-    color: #222629; }
-  h1.black {
-    color: #000000; }}
 		h1.alt {
     color: #ffffff;
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
-
 h2 {
 	 font-size: 2em;
  	letter-spacing: -1px; 
   position: relative; }
   h2 strong {
     font-weight: 400; }
-  h2.white {
-    color: #ffffff; }
-  h2.light {
-    color: #d9dcde; }
-  h2.medium {
-    color: #a6aaad; }
-  h2.dark {
-    color: #222629; }
-  h2.black {
-    color: #000000; }}
 		h2.alt {
     color: white;
     text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
-
 h3 {
 		font-size: 1.5em; 
   letter-spacing: -1px; 
   position: relative; }
-  h3 strong {
-    font-weight: 300; }
-  h3.white {
-    color: #ffffff; }
-  h3.light {
-    color: #d9dcde; }
-  h3.medium {
-    color: #a6aaad; }
-  h3.dark {
-    color: #222629; }
-  h3.black {
-    color: #000000; }
 
 header {
 		margin: 2em 0 0.5em 0; }
@@ -783,7 +749,7 @@ ul.icons {
 						    border-bottom-color: rgba(255, 255, 255, 0);	}
         #main section.white a.strong { 
           color: inherit;
-          font-weight: 10; }
+          font-weight: inherit; }
           #main section.white a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
@@ -798,7 +764,7 @@ ul.icons {
       text-align: center;
       background-color: #d9dcde; }
 			  	#main section.light h1, #main section.light h2, #main section.light h3, #main section.light h4, #main section.light h5, #main section.light h6 {
-					   color: #222629;	}
+					   color: #000000;	}
 			    	#main section.light h1 strong {
           font-weight: 500; }
         #main section.light h2 strong {
@@ -808,15 +774,15 @@ ul.icons {
         #main section.light h4 strong {
           font-weight: 200; }
       #main section.light p {
-        color: #222629; }
+        color: #000000; }
 		  		#main section.light a {
-				   	color: #222629;
+				   	color: #000000;
 				   	border-color: inherit;	}
 				   	#main section.light a:hover {
 						    border-bottom-color: rgba(255, 255, 255, 0);	}
         #main section.light a.strong { 
           color: inherit;
-          font-weight: 10; }
+          font-weight: inherit; }
           #main section.light a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
