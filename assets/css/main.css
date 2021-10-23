@@ -769,6 +769,8 @@ ul.icons {
       background-color: #ffffff; }
 			  	#main section.white h1, #main section.white h2, #main section.white h3, #main section.white h4, #main section.white h5, #main section.white h6 {
 					   color: inherit;	}
+			    	#main section.white h1 strong, #main section.white h2 strong, #main section.white h3 strong, #main section.white h4 strong, #main section.white h5 strong, #main section.white h6 strong {
+					     font-weight: 300;	}
 		  		#main section.white a {
 				   	color: inherit;
 				   	border-color: inherit;	}
@@ -792,6 +794,8 @@ ul.icons {
       background-color: #d9dcde; }
 			  	#main section.light h1, #main section.light h2, #main section.light h3, #main section.light h4, #main section.light h5, #main section.light h6 {
 					   color: #222629;	}
+			    	#main section.light h1 strong, #main section.light h2 strong, #main section.light h3 strong, #main section.light h4 strong, #main section.light h5 strong, #main section.light h6 strong {
+					     font-weight: 300;	}
       #main section.light p {
         color: #222629; }
 		  		#main section.light a {
@@ -817,6 +821,8 @@ ul.icons {
       background-color: #a6aaad; }
 			  	#main section.medium h1, #main section.medium h2, #main section.medium h3, #main section.medium h4, #main section.medium h5, #main section.medium h6 {
 					   color: #000000;	}
+			    	#main section.medium h1 strong, #main section.medium h2 strong, #main section.medium h3 strong, #main section.medium h4 strong, #main section.medium h5 strong, #main section.medium h6 strong {
+					     font-weight: 300;	}
       #main section.medium p {
         color: #000000; }
 		  		#main section.medium a {
@@ -842,6 +848,8 @@ ul.icons {
       background-color: #222629; }
 			  	#main section.dark h1, #main section.dark h2, #main section.dark h3, #main section.dark h4, #main section.dark h5, #main section.dark h6 {
 					   color: #ffffff;	}
+			    	#main section.dark h1 strong, #main section.dark h2 strong, #main section.dark h3 strong, #main section.dark h4 strong, #main section.dark h5 strong, #main section.dark h6 strong {
+					     font-weight: 300;	}
       #main section.dark p {
         color: #ffffff; }
 		  		#main section.dark a {
@@ -867,6 +875,8 @@ ul.icons {
       background-color: #000000; }
 			  	#main section.black h1, #main section.black h2, #main section.black h3, #main section.black h4, #main section.black h5, #main section.black h6 {
 					   color: #a6aaad;	}
+			    	#main section.black h1 strong, #main section.black h2 strong, #main section.black h3 strong, #main section.black h4 strong, #main section.black h5 strong, #main section.black h6 strong {
+					     font-weight: 300;	}
       #main section.black p {
         color: #a6aaad; }
 		  		#main section.black a {
