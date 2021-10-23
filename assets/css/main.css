@@ -148,12 +148,10 @@ footer {
 
 strong, b {
 		font-weight: 500;
-		color: #666; }
+		color: inherit; }
 
 em, i {
 		font-style: italic;	}
-  em a:hover, i a:hover {
-    font-weight: 300 ;}
 
 a {
 		text-decoration: none;
@@ -190,7 +188,7 @@ blockquote {
 
 p, ul, ol, dl, table {
   position: relative;
-		margin-bottom: 2em;	}
+		margin-bottom: 1em;	}
   p strong {
 		  font-weight: 300; }
 
@@ -365,9 +363,14 @@ button,
 		text-align: center;
 		background-color: #dce3e2;
   background-image: url("../../images/home/tess2.jpg");
+		position: absolute ;
+  bottom: 0;
 		padding: 1em 0 1em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
-		font-size: 0.8em;	}
+		font-size: 1em;	
+  font-weight: 200;
+  color: white;
+  text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000; }
 		#footer .copyright {
 		 	cursor: default;
 		 	margin: 0;	}
