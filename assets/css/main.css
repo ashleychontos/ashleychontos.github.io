@@ -774,7 +774,9 @@ ul.icons {
 				   	border-color: inherit;	}
 				   	#main section.white a:hover {
 						    border-bottom-color: rgba(255, 255, 255, 0);	}
-        #main section.white a.strong { }
+        #main section.white a.strong { 
+          color: inherit;
+          font-weight: 10; }
           #main section.white a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
@@ -797,7 +799,9 @@ ul.icons {
 				   	border-color: inherit;	}
 				   	#main section.light a:hover {
 						    border-bottom-color: rgba(255, 255, 255, 0);	}
-        #main section.light a.strong { }
+        #main section.light a.strong { 
+          color: inherit;
+          font-weight: 10; }
           #main section.light a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
@@ -820,7 +824,9 @@ ul.icons {
 				   	border-color: inherit;	}
 				   	#main section.medium a:hover {
 						    border-bottom-color: rgba(255, 255, 255, 0);	}
-        #main section.medium a.strong { }
+        #main section.medium a.strong {
+          color: inherit;
+          font-weight: 10; }
           #main section.medium a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
@@ -843,7 +849,9 @@ ul.icons {
 				   	border-color: inherit;	}
 				   	#main section.dark a:hover {
 						    border-bottom-color: rgba(255, 255, 255, 0);	}
-        #main section.dark a.strong { }
+        #main section.dark a.strong { 
+          color: inherit;
+          font-weight: 10; }
           #main section.dark a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
@@ -866,7 +874,9 @@ ul.icons {
 				   	border-color: inherit;	}
 				   	#main section.black a:hover {
 						    border-bottom-color: rgba(255, 255, 255, 0);	}
-        #main section.black a.strong { }
+        #main section.black a.strong { 
+          color: inherit;
+          font-weight: 10; }
           #main section.black a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
