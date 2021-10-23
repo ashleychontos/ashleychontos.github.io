@@ -866,12 +866,16 @@ ul.icons {
 			  	#main section.dark h1, #main section.dark h2, #main section.dark h3, #main section.dark h4, #main section.dark h5, #main section.dark h6 {
 					   color: #ffffff;	}
 			    	#main section.dark h1 strong {
+          color: inherit;
           font-weight: 500; }
         #main section.dark h2 strong {
+          color: inherit;
           font-weight: 400; } 
         #main section.dark h3 strong {
+          color: inherit;
 					     font-weight: 300;	}
         #main section.dark h4 strong {
+          color: inherit;
           font-weight: 200; }
       #main section.dark p {
         color: #ffffff; }
