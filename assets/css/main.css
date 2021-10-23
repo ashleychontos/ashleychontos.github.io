@@ -739,6 +739,19 @@ ul.icons {
         #main section.white h4 strong {
           color: inherit;
           font-weight: 200; }
+      #main section.white p {
+        color: #222629; }
+      #main section.white p a {
+        color: inherit;
+        border-bottom-style: dotted;
+        border-bottom-width: 2px;
+        border-bottom-color: inherit; }
+        #main section.white p a.alt {
+          color: inherit; }
+          #main section.white p a.alt:hover {
+            color: inherit; 
+            font-weight: 300;
+            border-bottom-color: rgba(255, 255, 255, 0); }
 		  		#main section.white a {
 				   	color: #888888;
 				   	border-color: inherit;	}
@@ -776,6 +789,17 @@ ul.icons {
           font-weight: 200; }
       #main section.light p {
         color: #222629; }
+      #main section.light p a {
+        color: inherit;
+        border-bottom-style: dotted;
+        border-bottom-width: 2px;
+        border-bottom-color: inherit; }
+        #main section.light p a.alt {
+          color: inherit; }
+          #main section.light p a.alt:hover {
+            color: inherit; 
+            font-weight: 300;
+            border-bottom-color: rgba(255, 255, 255, 0); }
 		  		#main section.light a {
 				   	color: #222629;
 				   	border-color: inherit;	}
@@ -813,6 +837,17 @@ ul.icons {
           font-weight: 200; }
       #main section.medium p {
         color: #000000; }
+      #main section.medium p a {
+        color: inherit;
+        border-bottom-style: dotted;
+        border-bottom-width: 2px;
+        border-bottom-color: inherit; }
+        #main section.medium p a.alt {
+          color: inherit; }
+          #main section.medium p a.alt:hover {
+            color: inherit; 
+            font-weight: 300;
+            border-bottom-color: rgba(255, 255, 255, 0); }
 		  		#main section.medium a {
 				   	color: #000000;
 				   	border-color: inherit;	}
