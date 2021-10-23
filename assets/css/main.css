@@ -928,9 +928,7 @@ ul.icons {
         text-align: right; }
 
 		 	#main section.cover {
-      padding: 80px;
-			  	background-size: cover;
-			  	background-position: center center;	}
+        color: #ffffff;	}
       #main section.cover h1 {
         color: #ffffff;
         font-weight: 500;
@@ -940,6 +938,9 @@ ul.icons {
         font-weight: 400;
         text-shadow: 2px 0 20px #000000, 0 2px 20px #000000, -2px 0 20px #000000, 0 -2px 20px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000;}
       #main section.cover.top { 
+        padding: 80px;
+			    	background-size: cover;
+			  	  background-position: center center;
         background-image: url("../../images/home/tessfirstlight.jpg");
         height: 400px; }
       #main section.cover.thick {
