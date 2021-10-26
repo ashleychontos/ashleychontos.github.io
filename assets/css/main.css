@@ -747,7 +747,7 @@ ul.icons {
             color: inherit; 
             font-weight: 300;
             border-bottom-color: rgba(255, 255, 255, 0); }
-      #main section.white image {
+      #main section.white container image featured {
         border: 5px solid #888888; }
       #main section.white.left {
         position: relative;
@@ -797,7 +797,7 @@ ul.icons {
           #main section.light a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
-      #main section.light image {
+      #main section.light container image featured {
         border: 5px solid #222629; }
       #main section.light.left {
         position: relative;
@@ -847,7 +847,7 @@ ul.icons {
           #main section.medium a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
-      #main section.medium image {
+      #main section.medium container image featured {
         border: 5px solid #000000; }
       #main section.medium.left {
         position: relative;
@@ -886,7 +886,7 @@ ul.icons {
           #main section.dark a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
-      #main section.dark image {
+      #main section.dark container image featured {
         border: 5px solid #ffffff; }
       #main section.dark.left {
         position: relative;
@@ -925,7 +925,7 @@ ul.icons {
           #main section.black a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
-      #main section.black image {
+      #main section.black container image featured {
         border: 5px solid #dcdee0; }
       #main section.black.left {
         position: relative;
