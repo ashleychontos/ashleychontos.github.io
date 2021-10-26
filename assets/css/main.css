@@ -560,26 +560,26 @@ form textarea {
 	 		display: block;
 		 	width: 100%;	}
 		.image.avatar48 {
-			width: 130px;
-			height: 130px;
+			width: 140px;
+			height: 140px;
 			background: #f00;
    margin: 0 0 0 225px;	}
 			.image.avatar48 img {
-				 width: 130px;
-				 height: 130px;	}
+				 width: 140px;
+				 height: 140px;	}
 		.image.fit {
  			display: block;
  			width: 100%;	}
 		.image.featured {
 	 		display: block;
 		 	width: 100%;
-		 	margin: 0 0 1em 0;	}
+		 	margin: 0 0 0 0;	}
 		.image.left {
 	 		float: left;
-		 	margin: 0 1em 1em 0;	}
+		 	margin: 0 0 0 0;	}
 		.image.centered {
 	 		display: block;
- 			margin: 0 0 1em 0;	}
+ 			margin: 0 0 0 0;	}
 		 	.image.centered img {
 			  	margin: 0 auto;
 			  	width: auto;	}
