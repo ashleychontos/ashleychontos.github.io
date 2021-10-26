@@ -555,7 +555,8 @@ form textarea {
 /*###########################################################################*/
 
 .image {
-		display: inline-block;	}
+		display: inline-block;
+  border: 0;	}
 		.image img {
 	 		display: block;
 		 	width: 100%;	}
