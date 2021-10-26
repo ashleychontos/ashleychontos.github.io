@@ -747,6 +747,8 @@ ul.icons {
             color: inherit; 
             font-weight: 300;
             border-bottom-color: rgba(255, 255, 255, 0); }
+      #main section.white image {
+        border: 5px solid #888888; }
       #main section.white.left {
         position: relative;
         text-align: left; }
@@ -795,6 +797,8 @@ ul.icons {
           #main section.light a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
+      #main section.light image {
+        border: 5px solid #222629; }
       #main section.light.left {
         position: relative;
         text-align: left; }
@@ -843,6 +847,8 @@ ul.icons {
           #main section.medium a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
+      #main section.medium image {
+        border: 5px solid #000000; }
       #main section.medium.left {
         position: relative;
         text-align: left; }
@@ -880,6 +886,8 @@ ul.icons {
           #main section.dark a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
+      #main section.dark image {
+        border: 5px solid #ffffff; }
       #main section.dark.left {
         position: relative;
         text-align: left; }
@@ -917,6 +925,8 @@ ul.icons {
           #main section.black a.strong:hover {
             font-weight: 300; 
 						      border-bottom-color: rgba(255, 255, 255, 0);}
+      #main section.black image {
+        border: 5px solid #dcdee0; }
       #main section.black.left {
         position: relative;
         text-align: left; }
