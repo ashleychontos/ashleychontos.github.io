@@ -602,13 +602,18 @@ form textarea {
   position: relative; }
   .enlarge:hover {
     width:500px;
-    height:auto;
-    display:block;
-    z-index:999;
+    height: auto;
+    display: block;
+    z-index: 999;
     cursor: pointer;
     -webkit-transition-property: all;
     -webkit-transition-duration: 0.25s;
     -webkit-transition-timing-function: ease; }
+  .enlarge:active {
+    width: 100%;
+    height: auto; 
+    display: block;
+    z-index: 999; }
 
 .inplace {
   display: inline-block;
