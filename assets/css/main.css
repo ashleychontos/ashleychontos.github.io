@@ -596,6 +596,17 @@ form textarea {
     transform: scale(1.5);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
+.enlarge {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto; }
+  .enlarge img {
+    width: 100%;
+    transition: 0.5s all ease-in-out; }
+  .enlarge:hover img {
+    transform: scale(1.5); }
+
 a.image:hover {
 		opacity: 0.75;	}
 
