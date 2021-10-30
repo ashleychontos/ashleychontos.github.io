@@ -597,13 +597,28 @@ form textarea {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .enlarge {
+  width: 100px;
+  height: auto;
+  position: relative; }
+  .enlarge:hover {
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+    cursor: pointer;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.25s;
+    -webkit-transition-timing-function: ease; }
+
+.inplace {
   display: inline-block;
   border: 0; }
-  .enlarge img {
+  .inplace img {
 	 		display: block;
-    transition: 0.5s all ease-in-out;
+    transition: 0.25s all ease-in-out;
 		 	width: 100%;	}
-  .enlarge:hover img {
+  .inplace:hover img {
+    z-index:999;
     transform: scale(1.5); }
 
 a.image:hover {
