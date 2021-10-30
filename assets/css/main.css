@@ -597,13 +597,12 @@ form textarea {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .enlarge {
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-  margin: 0 auto; }
+  display: inline-block;
+  border: 0; }
   .enlarge img {
-    width: 100%;
-    transition: 0.5s all ease-in-out; }
+	 		display: block;
+    transition: 0.5s all ease-in-out;
+		 	width: 100%;	}
   .enlarge:hover img {
     transform: scale(1.5); }
 
