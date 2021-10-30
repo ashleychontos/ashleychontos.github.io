@@ -597,23 +597,23 @@ form textarea {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 .enlarge {
-  width: 100px;
-  height: auto;
-  position: relative; }
-  .enlarge:hover {
-    width:500px;
+		display: inline-block;
+  border: 0;	}
+		.enlarge:hover img {
+	 		display: block;
+		 	width: 100%;	}
     height: auto;
-    display: block;
     z-index: 999;
     cursor: pointer;
     -webkit-transition-property: all;
     -webkit-transition-duration: 0.25s;
     -webkit-transition-timing-function: ease; }
+/*
   .enlarge:active {
     width: 100%;
     height: auto; 
     display: block;
-    z-index: 999; }
+    z-index: 999; } */
 
 .inplace {
   display: inline-block;
