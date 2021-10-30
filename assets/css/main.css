@@ -584,6 +584,17 @@ form textarea {
 		 	.image.centered img {
 			  	margin: 0 auto;
 			  	width: auto;	}
+  .image.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999; }
+  .image.enlarge:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
 
 a.image:hover {
 		opacity: 0.75;	}
